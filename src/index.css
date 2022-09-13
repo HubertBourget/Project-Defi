@@ -1,0 +1,747 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url('./fonts/Montserrat-Black.otf'); 
+  src: url('./fonts/Montserrat-Bold.otf') format('otf'),
+       url('./fonts/Montserrat-BlackItalic.otf') format('otf')
+}
+@font-face {
+  font-family: "Montserrat-extra-bold";
+  src: url('./fonts/Montserrat-ExtraBold.otf'); 
+  src: url('./fonts/Montserrat-ExtraBold.otf') format('otf'),
+}
+@font-face {
+  font-family: "courier";
+  src: url('./fonts/Courier.otf'); 
+  src: url('./fonts/Courier-Bold.otf') format('otf'),
+}
+@font-face {
+  font-family: "steelfish";
+  src: url('./fonts/steelfish\ eb.otf'); 
+  src: url('./fonts/steelfish\ rg.otf') format('otf'),
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+.navbar-bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: 86px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.navbar-container {
+  justify-content: center;
+  vertical-align: middle;
+  position:absolute;
+  display:flex;
+  align-items: center;
+  color: white;
+}
+
+.navbar-logo {
+  position: relative;
+  margin-top: 2%;
+}
+.navbar-menu-icon-holder{
+  display: flex;
+  flex-direction: row;
+}
+.navbar-menu-item {
+  margin-left: 3%; 
+  text-transform: uppercase;
+}
+.navbar-menu-icon-first {
+  margin-left: 5%;
+}
+.navbar-menu-icon {
+  margin-left: 1%;
+}
+.hero {
+  display: relative;
+  justify-content: center;
+  vertical-align: middle;
+  font-family: "courier";
+  font-weight: bold;
+}
+.hero-bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.hero-container {
+display: flex;
+justify-content: space-around;
+}
+.hero-left {
+  position: absolute;
+  top:25%;
+  left: 20%;
+  width: 30%;
+  text-align: left;
+  color: white;
+}
+.hero-text {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: justify;
+  font-family: "Courrier";
+  font-weight: normal;
+  font-size: large;
+}
+.hero-right {
+  position: absolute;
+  top:25%;
+  left: 55%;
+  width: 30%;
+}
+.hero-smiley{
+  max-height: 200px;
+height: auto;
+width: 100%;
+object-fit: contain;
+}
+.supersize {
+  font-size: 250%;
+}
+.pink {
+  color: rgb(241, 4, 176);
+}
+.button-pink {
+  background-color: rgb(241, 4, 176);
+    display: flex;
+    color: white;
+    padding: 6px 12px;
+    align-content: center;
+    align-items: center;
+    font-family: "Courier";
+    font-weight: bold;
+}
+.discord-button {
+  width: 23px;
+  margin-left: 8px;
+}
+.button-text {
+  display: inline-block;
+  text-decoration: none;
+  color:white;
+  align-items: center;
+}
+.about {
+  height: 1022px;
+}
+.about-bg {
+position: absolute;
+}
+.about-splash {
+position: absolute;
+z-index: 9999;
+left: 25%
+}
+.about-brad-pitt {
+  position: absolute;
+z-index: 99999;
+left: 55%
+}
+.about-content {
+  display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 20%;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-story {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  z-index: 9999999;
+  font-family: "courier";
+  font-weight: bolder;
+  font-size: 300%;
+
+}
+.about-our {
+  margin-right: 8px;
+}
+.about-text {
+  color: white;
+  z-index: 9999999;
+  margin-top: 25px;
+  font-family: "Courrier";
+  font-size: large;
+  
+}
+.rules-splash-small{
+display: none;
+}
+.rules-splash {
+  left: 30%;
+  justify-content: center;
+  position:absolute;
+  z-index: -1;
+  padding-bottom: 55px;
+}
+.rules-header {
+  height: 436px;
+  font-size: 250%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  z-index: 9;
+  color: white;
+  flex-direction: column;
+  font-family: "courier";
+  font-weight: bolder;
+}
+.rules-pink-ten{
+  display: flex;
+}
+.rules-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20%;
+
+}
+.rules-item {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: "courier";
+}
+.rules-numbers {
+  height: 80px;
+}
+.gallery-splatter {
+  position: absolute;
+  height: 436px;
+  left :30%;
+  z-index: -1;
+}
+.gallery-header {
+  height: 436px;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  z-index: 9;
+  font-size: 250%;
+  padding-top: 20px;
+  font-family: "courier";
+  font-weight: bolder;
+}
+.image-slider {
+  padding: 20px;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+[type=radio] {
+  display: none;
+}
+#slider{
+  height: 60vw;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+#slider label{
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  max-height: 50%;
+  max-width: fit-content;
+  border-radius: 4px;
+  position: absolute;
+  left: 0; right: 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+#s1:checked ~ #slide6, #s2:checked ~ #slide7,
+#s3:checked ~ #slide8, #s4:checked ~ #slide9,
+#s5:checked ~ #slide1, #s6:checked ~ #slide2,
+#s7:checked ~ #slide3, #s8:checked ~ #slide4,
+#s9:checked ~ #slide5{
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.4);
+  transform: translate3d(-50%,0,-210px);
+}
+
+#s1:checked ~ #slide7, #s2:checked ~ #slide8,
+#s3:checked ~ #slide9, #s4:checked ~ #slide1,
+#s5:checked ~ #slide2, #s6:checked ~ #slide3,
+#s7:checked ~ #slide4, #s8:checked ~ #slide5,
+#s9:checked ~ #slide6{
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.4);
+  transform: translate3d(-40%,0,-205px);
+}
+
+#s1:checked ~ #slide8, #s2:checked ~ #slide9,
+#s3:checked ~ #slide1, #s4:checked ~ #slide2,
+#s5:checked ~ #slide3, #s6:checked ~ #slide4,
+#s7:checked ~ #slide5, #s8:checked ~ #slide6,
+#s9:checked ~ #slide7{
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+  transform: translate3d(-30%,0,-200px);
+}
+
+#s1:checked ~ #slide9, #s2:checked ~ #slide1,
+#s3:checked ~ #slide2, #s4:checked ~ #slide3,
+#s5:checked ~ #slide4, #s6:checked ~ #slide5,
+#s7:checked ~ #slide6, #s8:checked ~ #slide7,
+#s9:checked ~ #slide8 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(-15%,0,-100px);
+}
+
+#s1:checked ~ #slide1, #s2:checked ~ #slide2,
+#s3:checked ~ #slide3, #s4:checked ~ #slide4,
+#s5:checked ~ #slide5, #s6:checked ~ #slide6,
+#s7:checked ~ #slide7, #s8:checked ~ #slide8,
+#s9:checked ~ #slide9  {
+  box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
+  transform: translate3d(0,0,0);
+}
+
+#s1:checked ~ #slide2, #s2:checked ~ #slide3,
+#s3:checked ~ #slide4, #s4:checked ~ #slide5,
+#s5:checked ~ #slide6, #s6:checked ~ #slide7,
+#s7:checked ~ #slide8, #s8:checked ~ #slide9,
+#s9:checked ~ #slide1 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(15%,0,-100px);
+}
+#s1:checked ~ #slide3, #s2:checked ~ #slide4,
+#s3:checked ~ #slide5, #s4:checked ~ #slide6,
+#s5:checked ~ #slide7, #s6:checked ~ #slide8,
+#s7:checked ~ #slide9, #s8:checked ~ #slide1,
+#s9:checked ~ #slide2 {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+  transform: translate3d(30%,0,-200px);
+}
+#s1:checked ~ #slide4, #s2:checked ~ #slide5,
+#s3:checked ~ #slide6, #s4:checked ~ #slide7,
+#s5:checked ~ #slide8, #s6:checked ~ #slide9,
+#s7:checked ~ #slide1, #s8:checked ~ #slide2,
+#s9:checked ~ #slide3 {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+  transform: translate3d(40%,0,-205px);
+}
+#s1:checked ~ #slide5, #s2:checked ~ #slide6,
+#s3:checked ~ #slide7, #s4:checked ~ #slide8,
+#s5:checked ~ #slide9, #s6:checked ~ #slide1,
+#s7:checked ~ #slide2, #s8:checked ~ #slide3,
+#s9:checked ~ #slide4 {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+  transform: translate3d(50%,0,-210px);
+}
+.gallery-button-container{ /* responsive */
+  max-height: 530px;
+  height: 530px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 10%;
+  
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  max-height: 50%;
+  max-width: fit-content;
+  border-radius: 4px;
+  position: absolute;
+  left: 0; right: 0;
+}
+.gallery-button-div{
+  display: inline-block;
+}
+.mint-button{
+  width: 23px;
+  margin-left: 8px;
+}
+.roadmap-header-splatter{
+  left: 30%;
+  position: absolute;
+  z-index: -1;
+}
+.roadmap-header{
+  color: white;
+  font-size: 250%;
+  display: flex;
+  height : 440px;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+.roadmap-container {
+  position: absolute;
+}
+.roadmap-bg-container{
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}
+.RoadMapImageBackground{
+max-width: 100%;
+z-index: -1;
+position: absolute;
+}
+.roadmap-vertical-line{
+position: absolute;
+left:50%;
+z-index: 9999;
+}
+.roadmap-vertical-line-4150{
+  display: none;
+}
+.roadmap-horizontal-line-left{
+position: absolute;
+margin-left: 32.5%;
+  width: 18%;
+  height: 25px;
+  padding-top: 2.3%;
+  z-index: 999;
+}
+.roadmap-numbers-left{
+  font-size: 250%;
+  color: white;
+  margin-left:28%;
+  overflow: visible;
+  height: 1px;
+  position: absolute;
+}
+.roadmap-section-left{
+  color: white;
+  margin-left:20%;
+  width: 25%;
+  text-align: justify;
+  font-size: larger;
+  margin-top: 5%;
+  padding-top: 12px;
+  margin-top: 5%;
+}
+.roadmap-item-header{
+  display: flex;
+}
+.roadmap-horizontal-line-right {
+  position: absolute;
+  margin-left: 50.2%;
+    width: 18%;
+    height: 25px;
+    padding-top: 2.3%;
+    z-index: 999;
+}
+.roadmap-section-right{
+  color: white;
+  margin-left:55%;
+  width: 25%;
+  text-align: justify;
+  font-size: larger;
+  margin-top: 5%;
+  padding-top: 12px;
+  margin-top: 5%;
+}
+.roadmap-numbers-right{
+  font-size: 250%;
+  color: white;
+  margin-left:72%;
+  overflow: visible;
+  height: 1px;
+  position: absolute;
+}
+.founder {
+  height: 1022px;
+}
+.founder-bg {
+position: absolute;
+z-index: 9999;
+}
+.founder-splash {
+position: absolute;
+z-index: 99999;
+left: 25%
+}
+.founder-image {
+  position: absolute;
+z-index: 999999;
+left: 55%
+}
+.founder-content {
+  display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 20%;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+}
+.founder-story {
+  display: flex;
+  flex-direction: row;
+  font-size: 200%;
+  color: white;
+  z-index: 9999999;
+}
+.founder-text {
+  color: white;
+  z-index: 9999999;
+  margin-top: 25px;
+  text-align: justify;
+}
+.follow-bg{
+position: absolute;
+z-index: -1;
+height: 50%;
+}
+.follow-header{
+  font-size: 250%;
+  color: white;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+}
+.follow-media-icon-container{
+  margin-top: 6%;
+  margin-bottom: 5%;;
+  display: flex;
+  justify-content: center;
+}
+.follow-media-icon {
+  height: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.connect-splash{
+  position: absolute;
+  margin-left: 40%;
+  z-index: -1;
+}
+.connect-header {
+  font-size: 250%;
+  color: white;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+}
+.connect-our-email{
+  display: flex;
+justify-content: center;
+color: white;
+margin-top: 180px;
+}
+.connect-text-input{
+  background-color: white;
+}
+.connect-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.connect-inputfields{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.connect-inputfield-wide{
+  margin-bottom: 50px;
+}
+.connect-item-right{
+  padding-left: 10px;
+}
+.connect-button{
+  padding: 5px 20px;
+  margin-bottom: 150px;
+}
+.footer {
+  position:absolute;
+  display: flex;
+  vertical-align: middle;
+
+}
+.footer-bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: 124px;
+    position: relative;
+    left: 0;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position:absolute;
+  left: 5%;
+  align-items: center;
+  color: white;
+}
+.footer-menu-icon-holder {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-top: 76px;
+}
+.footer-logo {
+  margin-top: 2%;
+}
+.footer-menu-item-container{
+  margin-left: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer-menu-item {
+  margin-left: 5%; 
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+.footer-menu-icon-first {
+  margin-left: 10%;
+}
+.footer-menu-icon {
+  margin-left: 1%;
+}
+@media only screen and (max-width: 835px)
+{
+  .roadmap-vertical-line{
+    display: none;
+    }
+    .roadmap-vertical-line-4150{
+      display: flex;
+      position: absolute;
+      left:50%;
+      z-index: 9999;
+    }
+    .roadmap-section-left{
+      color: white;
+      margin-left:10%;
+      width: 35%;
+      text-align: justify;
+      font-size: larger;
+      margin-top: 8%;
+      padding-top: 12px;
+    }
+    .roadmap-section-right{
+      color: white;
+      margin-left:60%;
+      width: 35%;
+      text-align: justify;
+      font-size: larger;
+      margin-top: 8%;
+      padding-top: 12px;
+    }
+    .roadmap-numbers-left{
+      font-size: 250%;
+      color: white;
+      margin-left:28%;
+      overflow: visible;
+      height: 1px;
+      position: absolute;
+    }
+    .roadmap-numbers-right{
+      font-size: 250%;
+      color: white;
+      margin-left:72%;
+      overflow: visible;
+      height: 1px;
+      position: absolute;
+    }
+}
+
+@media only screen and (max-width: 730px)
+{
+  .footer-menu-item-container {
+      margin-left: 2%;
+    }
+  .rules-splash{
+    height: 320px;
+    width: 400px;
+  }
+  .navbar-menu-item{
+    margin-top: 1%;
+  }
+  .navbar-logo {
+    position: absolute;
+    display: flex;
+    margin-top: 21%;
+    margin-left: 100%;
+  }
+  .navbar-menu-icon-holder{
+    position: absolute;
+    margin-top: 21%;
+
+  }
+  .hero-right {
+    position: absolute;
+    top:47%;
+    left: 55%;
+    width: 30%;
+  }
+  .about-brad-pitt {
+    display: none;
+  }
+  .about-content {
+      width: 60%;
+  }
+  .founder-image {
+display: none;
+  }
+  .founder-content {
+      width: 60%;
+}
+.rules-splash-small{
+  display: flex;
+  left: 30%;
+  justify-content: center;
+  position:absolute;
+  z-index: -1;
+  padding-bottom: 55px;
+}
+.footer-logo {
+  position: absolute;
+  display: flex;
+  margin-top: 21%;
+  margin-left: 100%;
+}
+.footer-menu-item{
+  margin-top: 1%;
+}
+
+}
