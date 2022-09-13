@@ -7,7 +7,7 @@ function Gallery() {
 
             <div className="image-slider">
                 
-                <section id="slider">
+                <section className= "radio-slider" id="slider">
                     <input type="radio" name="slider" id="s1"  />
                     <input type="radio" name="slider" id="s2"  />
                     <input type="radio" name="slider" id="s3"  />
@@ -20,12 +20,12 @@ function Gallery() {
 
                 <label for="s1" id="slide1">
                 <img src={process.env.PUBLIC_URL + "/images/gallery/Untitled_Artwork1.jpg"} alt="" height="100%" width="100%"/>  
-                 </label>
-                 <label for="s2" id="slide2">
-                 <img src={process.env.PUBLIC_URL + "/images/gallery/Untitled_Artwork2.jpg"} alt="" height="100%" width="100%"/>
-                  </label>
-                  <label for="s3" id="slide3">
-                  <img src={process.env.PUBLIC_URL + "/images/gallery/Untitled_Artwork3.jpg"} alt="" height="100%" width="100%"/>
+                </label>
+                <label for="s2" id="slide2">
+                <img src={process.env.PUBLIC_URL + "/images/gallery/Untitled_Artwork2.jpg"} alt="" height="100%" width="100%"/>
+                </label>
+                <label for="s3" id="slide3">
+                <img src={process.env.PUBLIC_URL + "/images/gallery/Untitled_Artwork3.jpg"} alt="" height="100%" width="100%"/>
                 </label>
                 <label for="s4" id="slide4">
                 <img src={process.env.PUBLIC_URL + "/images/gallery/Untitled_Artwork4.jpg"} alt="" height="100%" width="100%"/>
@@ -45,9 +45,6 @@ function Gallery() {
                 <label for="s9" id="slide9">
                 <img src={process.env.PUBLIC_URL + "/images/gallery/Untitled_Artwork9.jpeg"} alt="" height="100%" width="100%"/>
                 </label>
-                <div className="gallery-button-container">
-            <div className="gallery-button-div"><button type="button" className="button-pink"> <div className="button-text"> MINT&nbsp;AN&nbsp;NFT </div><img src={process.env.PUBLIC_URL + "/images/gallery/NFTPageMintIconButton.png"} alt="" className="mint-button"/></button>
-            </div> </div>
                 </section> 
                 
             </div>

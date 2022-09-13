@@ -1,0 +1,11 @@
+.quantityselector {
+  z-index: 10;
+  position: relative;
+}
+* {
+  font-family: "courier";
+}
+.preview {
+  height: 450px;
+  object-fit: contain;
+}

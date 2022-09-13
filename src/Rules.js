@@ -1,7 +1,7 @@
 function Rules() {
     return (
         <div className="rules">
-            <div className="rules-header"><img className="rules-splash" src={process.env.PUBLIC_URL + "/images/rules/10RulesPaintSplatter.png"} alt="" />
+            <div className="rules-header"><img className="rules-splash-small"src="/images/rules/PaintSplatterSmallFormat.png" alt="" /><img className="rules-splash" src={process.env.PUBLIC_URL + "/images/rules/10RulesPaintSplatter.png"} alt="" />
             <div className="rules-pink-ten"> <div className="pink"> 10&nbsp;</div> RULES </div> OF PROJECT DEFI</div>
             {/*<img src={process.env.PUBLIC_URL + "/images/rules/%BACKGROUNDHERE%"} alt="" />*/}
             <div className="rules-content">

@@ -1,0 +1,4 @@
+export const white = [
+  "0xFca5e6079B94828E5770BA4badF82847111bFA98",
+  "0x86fc9DbcE9e909c7AB4D5D94F07e70742E2d144A",
+];

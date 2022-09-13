@@ -2,7 +2,7 @@ import TextField from '@material-ui/core/TextField';
 import { TextArea } from '@react-ui-org/react-ui';
 function Connect() {
     return (
-        <div className="connect" id="connect">
+        <div className="connect">
             <img className="connect-splash" src={process.env.PUBLIC_URL + "/images/roadmap/RoadMapPaintSplatter.png"} alt="" />
             <div className="connect-header"><div className="pink"> CONNECT&nbsp;</div> WITH US</div>
             <div className="connect-our-email" >connect@projectdefi.com</div>
