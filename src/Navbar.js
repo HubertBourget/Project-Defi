@@ -2,7 +2,7 @@ function Navbar() {
 
     return (
         <div className="navbar">
-            <div className="navbar-bg"><img src="/images/navbar/HeroMenuBar.png" alt="" /></div>
+            <div className="navbar-bg"><img src="/images/navbar/HeroMenuBar.png" className="navbar-img"alt="" /></div>
             <div className="navbar-container">
             <div className="navbar-logo"><a href="#hero"><img src="/images/navbar/MenuProjectDefiLogo.png" alt="" /></a></div>
             <div className="navbar-menu-item"><a href="#hero">Home</a></div>

@@ -538,7 +538,7 @@ height: 50%;
 .follow-header{
   font-size: 250%;
   color: white;
-  z-index: 9;
+  z-index: 99999;
   display: flex;
   justify-content: center;
   padding-top: 15%;
@@ -697,6 +697,17 @@ margin-top: 180px;
       position: absolute;
     }
 }
+@media only screen and (max-width: 760px) {
+  .navbar-bg {
+      height: 120px;
+    }
+  .navbar-img{
+    height: 155px;
+  }
+  .navbar-logo {
+    height: 70px;
+  }
+}
 
 @media only screen and (max-width: 730px)
 {
@@ -757,4 +768,9 @@ display: none;
   margin-top: 1%;
 }
 
+}
+@media only screen and (max-width: 490px) {
+  .hero-smiley{
+    display: none;
+  }
 }

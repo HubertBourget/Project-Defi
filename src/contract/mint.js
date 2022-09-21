@@ -259,7 +259,7 @@ const Mint = () => {
               className="button-pink mx-auto mt-4"
               onClick={() => connect()}
             >
-              CONECT WALLET
+              CONNECT WALLET
             </button>
           )}
         </div>
@@ -303,7 +303,7 @@ const Mint = () => {
               className="button-pink mx-auto mt-4"
               onClick={() => connect()}
             >
-              CONECT WALLET
+              CONNECT WALLET
             </button>
           )}
         </div>
@@ -318,7 +318,7 @@ const Mint = () => {
           </h5>
           <input
             className="form-control text-center w-75 mx-auto"
-            placeholder="Enter Address"
+            placeholder="Wallet Address"
             id="addressId"
           />
           <button
@@ -361,7 +361,7 @@ const Mint = () => {
               className="button-pink mx-auto mt-4"
               onClick={() => connect()}
             >
-              CONECT WALLET
+              CONNECT WALLET
             </button>
           )}
         </div>

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5d2348bd.css",
+    "main.js": "/static/js/main.acc081ee.js",
+    "static/js/787.163578a5.chunk.js": "/static/js/787.163578a5.chunk.js",
+    "static/media/Montserrat-BlackItalic.otf": "/static/media/Montserrat-BlackItalic.28209c93339096188d6d.otf",
+    "static/media/Montserrat-Bold.otf": "/static/media/Montserrat-Bold.a6bc51efd33e2f7f1b95.otf",
+    "static/media/Montserrat-ExtraBold.otf": "/static/media/Montserrat-ExtraBold.08b61655390b457dfa8e.otf",
+    "static/media/Montserrat-Black.otf": "/static/media/Montserrat-Black.502ad6d1b3ce1300943a.otf",
+    "static/media/steelfish eb.otf": "/static/media/steelfish eb.9b9d14fbc0f3fd21585d.otf",
+    "static/media/steelfish rg.otf": "/static/media/steelfish rg.8ec17379789a648993ec.otf",
+    "static/media/Courier-Bold.otf": "/static/media/Courier-Bold.c25652bd267e38ca3199.otf",
+    "static/media/Courier.otf": "/static/media/Courier.4f7e1c9e291c3134948f.otf",
+    "index.html": "/index.html",
+    "main.5d2348bd.css.map": "/static/css/main.5d2348bd.css.map",
+    "main.acc081ee.js.map": "/static/js/main.acc081ee.js.map",
+    "787.163578a5.chunk.js.map": "/static/js/787.163578a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d2348bd.css",
+    "static/js/main.acc081ee.js"
+  ]
+}
