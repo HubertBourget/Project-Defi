@@ -16,7 +16,7 @@ function Hero() {
             </div>
             
             <div className="hero-right">
-            <img className="hero-smiley" src={process.env.PUBLIC_URL + "/images/hero/HeroPageSmileyLogo.png"} alt="" />
+            <img className="hero-smiley" src={process.env.PUBLIC_URL + "/images/hero/HeroPageSmileyLogoBlack.png"} alt="" />
             </div>
 
             </div>

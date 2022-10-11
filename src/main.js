@@ -9,6 +9,7 @@ import Follow from "./Follow";
 import Connect from "./Connect";
 import Footer from "./Footer";
 import Mint from "./contract/mint";
+import Whitepaper from "./Whitepaper";
 
 function Main() {
   return (
@@ -22,6 +23,7 @@ function Main() {
         <Gallery></Gallery>
         <Roadmap></Roadmap>
         <Founder></Founder>
+        <Whitepaper></Whitepaper>
         <Follow></Follow>
         {/* <Connect></Connect> */}
       </div>

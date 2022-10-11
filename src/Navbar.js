@@ -5,7 +5,7 @@ function Navbar() {
             <div className="navbar-bg"><img src="/images/navbar/HeroMenuBar.png" className="navbar-img"alt="" /></div>
             <div className="navbar-container">
             <div className="navbar-logo"><a href="#hero"><img src="/images/navbar/MenuProjectDefiLogo.png" alt="" /></a></div>
-            <div className="navbar-menu-item"><a href="#hero">Home</a></div>
+            <div className="navbar-menu-item-first"><a href="#hero">Home</a></div>
             <div className="navbar-menu-item"><a href="#about">About</a></div>
             <div className="navbar-menu-item"><a href="#roadmap">Roadmap</a></div>
             <div className="navbar-menu-item"><a href="#follow">Follow&nbsp;Us</a></div>
