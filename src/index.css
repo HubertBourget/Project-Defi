@@ -83,6 +83,9 @@ code {
   display: flex;
   flex-direction: row;
 }
+  .navbar-menu-icon-holder-2 {
+    display: none;
+  }
 .navbar-menu-item-first{
   font-size: x-large;
 }
@@ -785,7 +788,6 @@ margin-top: 180px;
   .navbar-menu-icon-holder{
     position: absolute;
     margin-top: 21%;
-
   }
   .hero-right {
     position: absolute;
