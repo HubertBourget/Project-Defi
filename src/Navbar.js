@@ -6,9 +6,9 @@ function Navbar() {
             <div className="navbar-container">
                 <div className="navbar-menu-icon-holder-2">
                     <div className="navbar-menu-icon-first"><a href="https://discord.gg/SxPAbhmqjE" target="_blank" rel="noreferrer" display="inline-block"><img src="/images/navbar/DicordMenuIcon.png" alt="" /></a></div>
-                    <div className="navbar-menu-icon"><a href="https://www.instagram.com/project_defi/" target="_blank" rel="noreferrer" display="inline-block"><img src="/images/navbar/TwitterMenuIcon.png" alt="" /></a></div>
+                    <div className="navbar-menu-icon"><a href="https://mobile.twitter.com/project_defi_" target="_blank" rel="noreferrer" display="inline-block"><img src="/images/navbar/TwitterMenuIcon.png" alt="" /></a></div>
                     <div className="navbar-menu-icon"><a href="https://youtube.com/channel/UC1ScYfmV66CYQIghMeda8hA" target="_blank" rel="noreferrer" display="inline-block"><img src="/images/navbar/YoutubeMenuIcon.png" alt="" /></a></div>
-                    <div className="navbar-menu-icon"><a href="https://mobile.twitter.com/project_defi_" target="_blank" rel="noreferrer" display="inline-block"><img src="/images/navbar/Instagram Menu Icon.png" alt="" /></a></div>
+                    <div className="navbar-menu-icon"><a href="https://www.instagram.com/project_defi/" target="_blank" rel="noreferrer" display="inline-block"><img src="/images/navbar/Instagram Menu Icon.png" alt="" /></a></div>
                 </div>
 
             <div className="navbar-logo"><a href="#hero"><img src="/images/navbar/MenuProjectDefiLogo.png" alt="" /></a></div>
@@ -21,9 +21,9 @@ function Navbar() {
             
             <div className="navbar-menu-icon-holder">
             <div className="navbar-menu-icon-first"><a href="https://discord.gg/SxPAbhmqjE" target="_blank" rel="noreferrer" display="inline-block"><img src="/images/navbar/DicordMenuIcon.png" alt="" /></a></div>
-            <div className="navbar-menu-icon"><a href="https://www.instagram.com/project_defi/" target="_blank" rel="noreferrer" display="inline-block"><img src="/images/navbar/TwitterMenuIcon.png" alt="" /></a></div>
+            <div className="navbar-menu-icon"><a href="https://mobile.twitter.com/project_defi_" target="_blank" rel="noreferrer" display="inline-block"><img src="/images/navbar/TwitterMenuIcon.png" alt="" /></a></div>
             <div className="navbar-menu-icon"><a href="https://youtube.com/channel/UC1ScYfmV66CYQIghMeda8hA" target="_blank" rel="noreferrer" display="inline-block"><img src="/images/navbar/YoutubeMenuIcon.png" alt="" /></a></div>
-            <div className="navbar-menu-icon"><a href="https://mobile.twitter.com/project_defi_" target="_blank" rel="noreferrer" display="inline-block"><img src="/images/navbar/Instagram Menu Icon.png" alt="" /></a></div>
+            <div className="navbar-menu-icon"><a href="https://www.instagram.com/project_defi/" target="_blank" rel="noreferrer" display="inline-block"><img src="/images/navbar/Instagram Menu Icon.png" alt="" /></a></div>
             </div>
             </div>
         </div>
