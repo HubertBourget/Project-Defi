@@ -22,7 +22,7 @@
 
 html,
 body {
-  max-width: 100%;
+  max-width: 100vw;
   overflow-x: hidden;
 }
 
@@ -826,6 +826,10 @@ display: none;
 
 }
 @media only screen and (max-width: 500px) {
+  body{
+    position: relative;
+    height: 100vh;
+  }
   .navbar-bg{
     height: 240px;
   }
@@ -840,10 +844,15 @@ display: none;
     top:0%;
   }
   .navbar-menu-icon-holder{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: none;
   }
+  .navbar-menu-icon-holder-2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: -100px;
+    top: 10px;
+    }
   .hero-bg {
       left: -120%;
       overflow: hidden;
@@ -852,7 +861,7 @@ display: none;
     display: none;
   }
   .hero-left{
-    top: 30%;
+    top: 40%;
   }
   .hero-left{
     left: 5%;
